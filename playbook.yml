@@ -1,0 +1,7 @@
+---
+- name: Install and configure Apache and deploy website
+  hosts: web_servers
+  become: yes
+  roles:
+    - apache
+

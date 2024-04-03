@@ -1,0 +1,6 @@
+---
+ apache_ubuntu_package: apache2
+ apache_service: apache2
+ apache_centos_service: httpd
+ apache_centos_package: httpd
+ httpd_service: httpd
